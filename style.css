@@ -1,7 +1,19 @@
 /* style.css */
 body {
   font-family: sans-serif;
-  padding: 5%;
+  padding: 5vw;
+  margin: 0;
   background: #f9f9f9;
   color: #333;
+  max-width: 100vw;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+
+/* Optional: Kontainer utama agar konten tidak terlalu lebar di layar besar */
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  width: 100%;
 }
